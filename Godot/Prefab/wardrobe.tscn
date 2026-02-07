@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dddbutttbwvyc"]
+
+[ext_resource type="PackedScene" uid="uid://5y3caf1mlgxw" path="res://Model/FBX format/bookcaseClosedDoors.fbx" id="1_k8fu0"]
+[ext_resource type="PackedScene" uid="uid://dcc644ktnfv66" path="res://Model/FBX format/bookcaseClosed.fbx" id="2_sdijr"]
+
+[node name="wardrobe" type="Node3D" unique_id=994572788]
+
+[node name="bookcaseClosedDoors" parent="." unique_id=1977147801 instance=ExtResource("1_k8fu0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5655769, 1.1920929e-07, -1.4168711)
+
+[node name="bookcaseClosed" parent="." unique_id=1482723518 instance=ExtResource("2_sdijr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.437898, 0, -1.4119043)
+
+[node name="bookcaseClosed2" parent="." unique_id=584349310 instance=ExtResource("2_sdijr")]
+transform = Transform3D(-0.99999374, 0, -0.0035430437, 0, 1, 0, 0.0035430437, 0, -0.99999374, 1.544605, 0, 1.0721937)

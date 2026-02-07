@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bxqxbly3yn83v"]
+
+[ext_resource type="PackedScene" uid="uid://c36secira4214" path="res://Model/FBX format/bedDouble.fbx" id="1_2n1at"]
+[ext_resource type="PackedScene" uid="uid://b64cddjhnyq8h" path="res://Model/FBX format/cabinetBed.fbx" id="2_jqns8"]
+[ext_resource type="PackedScene" uid="uid://3olysjwpbil6" path="res://Model/FBX format/cabinetBedDrawer.fbx" id="3_0tr7l"]
+[ext_resource type="PackedScene" uid="uid://pfgm6bdqpi4v" path="res://Model/FBX format/lampRoundTable.fbx" id="4_3meul"]
+
+[node name="bed" type="Node3D" unique_id=125985562]
+
+[node name="bedDouble" parent="." unique_id=1253991554 instance=ExtResource("1_2n1at")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4147239, 0, -2.8191857)
+
+[node name="cabinetBed" parent="." unique_id=915169353 instance=ExtResource("2_jqns8")]
+transform = Transform3D(1.1062225, 0, 0, 0, 1.1222916, 0, 0, 0, 1.3365341, 4.2580113, 0, 5.6957297)
+
+[node name="cabinetBedDrawer" parent="." unique_id=1138247126 instance=ExtResource("3_0tr7l")]
+transform = Transform3D(1.0859597, 0, 0, 0, 1, 0, 0, 0, 1.1923114, -8.233196, -9.536743e-07, 5.823895)
+
+[node name="lampRoundTable" parent="." unique_id=2003194119 instance=ExtResource("4_3meul")]
+transform = Transform3D(0.56061065, 0, 0, 0, 0.56061065, 0, 0, 0, 0.56061065, 2.8823864, 2.6300702, 7.294732)

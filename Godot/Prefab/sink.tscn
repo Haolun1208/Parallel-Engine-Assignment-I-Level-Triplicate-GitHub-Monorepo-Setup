@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://slkyqo2apwq3"]
+
+[ext_resource type="PackedScene" uid="uid://c1jdy8ivexjgw" path="res://Model/FBX format/bathroomMirror.fbx" id="1_c6n4i"]
+[ext_resource type="PackedScene" uid="uid://drgwqwqmct3ss" path="res://Model/FBX format/bathroomSinkSquare.fbx" id="2_hv2k2"]
+
+[node name="Sink" type="Node3D" unique_id=1770364766]
+
+[node name="bathroomMirror" parent="." unique_id=1690202695 instance=ExtResource("1_c6n4i")]
+transform = Transform3D(2.6413102, 0, 0, 0, 1, 0, 0, 0, 1, -3.3956237, 2.9522438, 7.7154303)
+
+[node name="bathroomSinkSquare" parent="." unique_id=1039385108 instance=ExtResource("2_hv2k2")]
+transform = Transform3D(1.8526295, 0, 0, 0, 1, 0, 0, 0, 1.0661943, -3.3918624, -2.3345852, 2.735209)
