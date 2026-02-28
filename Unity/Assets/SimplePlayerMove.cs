@@ -3,7 +3,7 @@ using UnityEngine;
 public class SimplePlayerMove : MonoBehaviour
 {
     public float speed = 5f;
-    public float gravity = -9.81f;
+    
 
     private CharacterController cc;
     private Vector3 velocity;
@@ -24,7 +24,7 @@ public class SimplePlayerMove : MonoBehaviour
         if (cc.isGrounded && velocity.y < 0)
             velocity.y = -2f;
 
-        velocity.y += gravity * Time.deltaTime;
+        
         cc.Move(velocity * Time.deltaTime);
     }
 }
