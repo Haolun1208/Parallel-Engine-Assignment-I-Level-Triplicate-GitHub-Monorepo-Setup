@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cim88pdxl54vl"]
 
-[ext_resource type="Script" uid="uid://cu0rlaum4p4es" path="res://coin.gd" id="1_d5gmh"]
+[ext_resource type="Script" uid="uid://cu0rlaum4p4es" path="res://attack.gd" id="1_d5gmh"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_0t63x"]
 
